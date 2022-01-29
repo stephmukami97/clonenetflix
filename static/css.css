@@ -1,0 +1,118 @@
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 70px;
+    text-align: left;
+    background-color: black;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.329);
+    height: 600px;
+    text-align: center;
+    background-image: url(tyson-moultrie-BQTHOGNHo08-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main{
+
+    height: 1500px;
+    background-color: black;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+    bottom: 0%;
+
+}
+h1{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.small{
+    font-size: 10px;
+}
+.font{
+    font-family: cursive;
+}
+h2{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left{
+    align-items: flex-end;
+    text-align: right;
+	position:absolute;
+    top:10%;
+    right: 10%;
+}
+span{
+    color: red;
+}
+.content2{
+    height: 500px;
+    right: 0;
+}
+.image{
+    position :absolute;
+    height: 500px;
+    width: 300px;
+    padding: 5px;
+    
+}
+.image2{
+    position: absolute;
+    right: 0%;
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+   
+  }
+
+.image3{
+    position :absolute;
+    height: 500px;
+    width: 500px;
+    padding: 5px;
+}
+.content1{
+    position: absolute;
+    left: 0%;
+    width: 500px;
+    
+   
+
+}
+.content3{
+    position: absolute;
+    right: 0%;
+    width: 500px;
+
+}
+.side{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 20px;
+
+}
+
+    

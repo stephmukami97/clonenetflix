@@ -1,0 +1,25 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+		
+	<title>NETFLIX</title>
+</head>
+<body>
+  <div class='side'>
+{%for b in a %}
+<a href="display/{{b.id}}">
+  
+<img src=" {{b.coverimage.url}} "  style="width :200px;height:200px;">
+</a>
+ <p>Movie Name:{{b.name}}</p>
+ <p>{{b.description}}</p>
+  {% endfor %}
+</div>
+
+
+
+
+
+</body>
+</html>
