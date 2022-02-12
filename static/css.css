@@ -1,4 +1,6 @@
-
+body{
+    background-color: silver;
+}
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +8,6 @@
 header{
     height: 70px;
     text-align: left;
-    background-color: black;
 }
 nav{
     background-color: rgba(0, 0, 0, 0.329);
@@ -108,11 +109,10 @@ span{
 
 }
 .side{
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    top: 20px;
-
+   display: flex;
+   justify-content: center;
+   float:left;
+    height: 300px;
 }
 
     

@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href={%static "css.css"%}>
 		
-	<title>home</title>
+	<title>NETFLIX</title>
 </head>
 <body>
   
-    <video class='container' width="700px" height="700px" src="{{a.movie.url}}" controls></video>
+    <video class='container' width="1024px" height="700px" src="{{a.movie.url}}" controls></video>
+    
+    <p>About Movie:{{b.description}}</p>
 
 </body>
 </html>

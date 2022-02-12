@@ -1,20 +1,13 @@
-from http.client import HTTPResponse
-from django.shortcuts import render
-from django.http import HttpResponse
+
 from.models import Movies
 from django.shortcuts import  render, redirect
 from .forms import NewUserForm
 from django.contrib.auth import login
-from django.contrib import messages
 from django.shortcuts import  render, redirect
 from .forms import NewUserForm
-from django.contrib.auth import login, authenticate, logout #add this
+from django.contrib.auth import login, authenticate, logout 
 from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
-
-from django.contrib.auth import login, authenticate #add this
-from django.contrib import messages
-from django.contrib.auth.forms import AuthenticationForm #add this
 
 
 
@@ -65,4 +58,4 @@ def login_request(request):
 def logout_request(request):
 	logout(request)
 	messages.info(request, "You have successfully logged out.") 
-	return redirect("main:homepage")
+	return redirect("first.html")

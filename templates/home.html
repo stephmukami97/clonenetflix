@@ -2,24 +2,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href={%static "css.css"%}>
 		
 	<title>NETFLIX</title>
 </head>
 <body>
-  <div class='side'>
-{%for b in a %}
-<a href="display/{{b.id}}">
+  <div class="color">
+    <div class="side">
   
-<img src=" {{b.coverimage.url}} "  style="width :200px;height:200px;">
-</a>
- <p>Movie Name:{{b.name}}</p>
- <p>{{b.description}}</p>
-  {% endfor %}
+     {%for b in a %}
+     <a href="display/{{b.id}}">
+  
+     <img src=" {{b.coverimage.url}}" style="width:200px;height:200px; ">
+      </a>
+    <p>Movie Name:{{b.name}}</p>
+       {% endfor %}
+   </div>
 </div>
-
-
-
-
 
 </body>
 </html>
